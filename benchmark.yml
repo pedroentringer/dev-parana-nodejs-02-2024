@@ -1,0 +1,14 @@
+---
+concurrency: 10
+base: "http://localhost:8000"
+iterations: 10000
+rampup: 2
+
+plan:
+  - name: Send a message
+    request:
+      url: /
+      method: POST
+      body: '{ "message": "Teste de Benchmark" }'
+      headers:
+        Content-Type: "application/json"

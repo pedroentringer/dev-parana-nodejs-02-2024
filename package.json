@@ -1,0 +1,12 @@
+{
+  "name": "performance",
+  "version": "1.0.0",
+  "description": "improve performance on node.js",
+  "main": "index.js",
+  "author": "Pedro Entringer",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "fastify": "^4.26.1"
+  }
+}
